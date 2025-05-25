@@ -1,0 +1,263 @@
+h1 { border:solid black;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #09549f; 
+    text-shadow:
+    -2px -2px 0 black,
+         2px -2px 0 black ,
+        -2px 2px 0 black ,
+         2px 2px 0  black;
+    font-size: 80px;
+    background-color: #bce39b;
+}
+
+.h1-2 { border:solid black;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color:#228B22; 
+    text-shadow:
+    -2px -2px 0 black,
+         2px -2px 0 black ,
+        -2px 2px 0 black ,
+         2px 2px 0  black;
+    font-size: 80px;
+}
+.h1-3 { border:solid black;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #B22222; 
+    text-shadow:
+    -2px -2px 0 black,
+         2px -2px 0 black ,
+        -2px 2px 0 black ,
+         2px 2px 0  black;
+    font-size: 80px;}
+    body {
+        background-image: url(https://turismoantioquia.travel/wp-content/uploads/2021/12/ENTRERRIOS-2.jpg);
+        background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-position: center; /* Centra la imagen */
+        background-color: white; /* Rellena las áreas sin imagen con blanco */
+    }
+    .ubicacion-bg {
+    background-image: url('https://turismoantioquia.travel/wp-content/uploads/2023/04/Entrerrios-4-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e0f7fa;
+}
+.contacto-bg {
+    background-image: url('https://turismoantioquia.travel/wp-content/uploads/2023/04/Entrerrios-2-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e0f7fa;}
+
+h2 { 
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; color: #000000; 
+     color: #000000;
+    text-shadow: 2px 2px 8px #fff, 0 0 2px #fff;
+
+   
+}
+
+
+.nav {
+    list-style: none; /* Elimina los puntos de la lista */
+    display: flex; /* Hace que los elementos de la lista se alineen horizontalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+
+}
+
+.nav li {
+    margin: 0 100px; /* Espaciado entre los elementos */
+}
+
+.nav a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #4ea800; /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 18px; /* Tamaño del texto */
+    text-shadow:
+    -2px -2px 0 black,
+         2px -2px 0 black ,
+        -2px 2px 0 black ,
+         2px 2px 0  black;
+    font-size: 40px;
+}
+
+.nav a:hover {
+    color: #508bd3; /* Cambia el color al pasar el mouse */
+}
+
+.social-media {
+    display: flex; /* Hace que los elementos de la lista se alineen horizontalmente */
+    gap: 20px; /* Espaciado entre los elementos */
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    align-items: center; /* Alinea los elementos verticalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.social-media {
+    display: flex; /* Hace que los elementos de la lista se alineen horizontalmente */
+    gap: 300px; /* Espaciado entre los elementos */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    list-style: none; /* Elimina los puntos de la lista */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin: 50px 0 -35px -35px;}
+
+.white-box {
+    width: 540px; /* Ancho del cuadro */
+    height: auto; /* Ajusta la altura automáticamente */
+    background-color: white; /* Fondo blanco */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Borde negro */
+    display: flex; /* Coloca los elementos en línea */
+    align-items: center; /* Alinea verticalmente */
+    gap: 20px; /* Espaciado entre la imagen y el texto */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 18px; /* Tamaño del texto */
+    margin: 40px 0 20px 20px; /* Margen */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    padding: 10px; /* Espaciado interno */
+}
+
+.white-box2 {
+   width: 750px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; /* Elementos uno debajo del otro */
+    align-items: center;    /* Centra horizontalmente */
+    gap: 20px;              /* Espacio entre imagen y texto */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px; padding: 10px; /* Espaciado interno */
+}
+
+.white-box-img {
+    width: 400px; /* Ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0px 0 0px -10px
+}
+.p-1{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 25px ;
+    text-align: center; }
+
+.h2ubi{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px 0 20px -10px;
+    font-size: 40px}
+.white-box2 {
+    width: 750px; /* Ancho del cuadro */
+    height: 370px; /* Ajusta la altura automáticamente */
+    background-color: white; /* Fondo blanco */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Borde negro */
+    display: flex; /* Activa el modelo flexbox */
+    flex-direction: column; /* Ordena los elementos en columna */
+    align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    gap: 10px; /* Espaciado entre los elementos */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 18px; /* Tamaño del texto */
+    margin: 50px 0 100px 10px; /* Margen */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    padding: 20px; /* Espaciado interno */
+    position: relative; /* Posiciona los elementos hijos en relación al cuadro */
+}.overlay-img {
+    border: 2px solid black;
+     margin-top: 40px;
+    position: absolute; /* Posiciona la imagen de forma absoluta */
+    top: -10px; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+    transform: translateX(-50%); /* Centra la imagen horizontalmente */
+    width: 600px; /* Ancho de la imagen */
+    height: 411px; /* Mantiene la proporción de la imagen */
+    z-index: 10; /* Asegura que la imagen esté al frente */
+   margin: 10px 0 10px 750px}
+
+   
+    .white-box-img3 {
+        border: 2px solid black;
+        width: 900px; /* Ancho de la imagen */
+        height: auto; /* Mantiene la proporción de la imagen */
+        margin: 20px 0 4520px 20px
+    }
+
+    
+
+.imagenreco{ width: 800px; /* Ancho del cuadro */
+    margin: 20px 0 1px 340px;
+    height: auto; /* Ajusta la altura automáticamente */
+      box-shadow: 10px 10px 30px rgba(0,0,0,0.5)}
+
+
+.white-box3 {
+    width: 760px; /* Ancho del cuadro */
+    height: 250px; /* Ajusta la altura automáticamente */
+    background-color: white; /* Fondo blanco */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Borde negro */
+    display: flex; /* Activa el modelo flexbox */
+    flex-direction: column; /* Ordena los elementos en columna */
+    align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    gap: 10px; /* Espaciado entre los elementos */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 18px; /* Tamaño del texto */
+    margin: 50px 0 100px 340px; /* Margen */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    padding: 20px; /* Espaciado interno */
+    position: relative; /* Posiciona los elementos hijos en relación al cuadro */
+}
+.margen-ubi{
+    margin: -49px 0 100px 700px;
+}
+.p-3{ font-size:25px ;
+    text-align: center;
+    font-family:monospace
+    }
+.youtubevid{width: 800px; /* Ancho del cuadro */
+            height: 450px;
+             margin: 20px 0 200px 340px;
+             box-shadow: 10px 10px 30px rgba(0,0,0,0.5); /* Sombra alrededor del video */
+
+}.white-box4 {
+  width: 760px; /* Ancho del cuadro */
+    height: 580px; /* Ajusta la altura automáticamente */
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; /* Elementos uno debajo del otro */
+    align-items: center;    /* Centra horizontalmente */
+    gap: 20px;              /* Espacio entre imagen y texto */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: -15px 0 100px 10px; /* Margen */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px; padding: 10px; /* Espaciado interno */}
+    
+    .overlay-img2 {
+    border: 2px solid black;
+     margin-top: 40px;
+    position: absolute; /* Posiciona la imagen de forma absoluta */
+    top: -10px; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+    transform: translateX(-50%); /* Centra la imagen horizontalmente */
+    width: 600px; /* Ancho de la imagen */
+    height: 600px; /* Mantiene la proporción de la imagen */
+    z-index: 10; /* Asegura que la imagen esté al frente */
+   margin:1500px 0 1px 390px}
+
+   .p-4t{ font-size:28px ;
+    text-align: center;
+    font-family: monospace;
+    }
